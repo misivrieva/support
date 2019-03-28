@@ -1,0 +1,14 @@
+On a high level, the two report formats are not too different. the original version contains more information in fewer fields. The fields designating time in the original are in the ISO8601 format, which means it has local time plus time zone difference compared to UTC. In the new format, time is split into separate date/time columns and it is in GMT format. It is a challenge to convert between those two formats, as there is daylight saving time to be considered. Some countries have, others don't, and those who change time zones do it at different times- ie. beginning of March for the US vs end of March for Europe. Another consideration to be taken into account is the change of date - it can be 'yesterday' in America and 'today' in Europe; the same transformation stays for Asia - 'today' in GMT can be 'tomorrow' for the Pacific, thus affecting records.
+The Reviewer field in the original is in 'Name, Surname'- format and in the new file it is 'Last name, First name'. This is a fairly simple swap.
+
+Event type in the original document can take a single string value from a list. In the new format, all the items from that list are converted to Boolean, which means they will take a value for each alert review triggered. In the new format, it is easier to spot patterns.
+
+The UID field remains unchanged, it will be a direct transfer of information without further formatting.
+
+In the original format, the Franchise account contains franchise id and account id in the same field. In the new format, they are split.
+
+The Risk field in both documents has only 2 options - risk/ no risk, that can easily be transformed into True/ False.
+
+In the original report, the financial value and the currency of the transaction are in separate fields, in the new file, it is one.
+
+Finally, both files share the same 'Rules triggered' field that has exactly the same format.
