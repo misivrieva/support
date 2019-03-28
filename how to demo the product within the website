@@ -1,0 +1,12 @@
+How to demo the product within the website?
+
+Adding functionality to expose the product via the website for users to try out with their own data is quite complex as there a lot of things to be considered.
+Starting from the website itself - is it stable enough to handle the increased traffic. I’ll make sure there is a potential for automatic scalability of instances if there is a sudden peak.
+
+The platform and its functionality (aka all the machine learning algorithms) are our main selling point. We need to balance their security and their exposure. In a normal production environment, those would be protected by firewalls, VPNs, VPCs, load balancers, bastion hosts, limited ( or no access from the Internet at all). Those will need to be applied to the app(s) that is being shown to the public. <there are a lot of options for setup>
+
+Another thing to consider is how much functionality we want to expose. Do we show all the features or just the key selling points? How many files is a user allowed to run through the system at one go, considering it is a demo version. Do we want users to register for a free demo account to better understand how they use/trial the platform or we allow them to run it without further information.
+
+For the app to work, it will need to store information (user input) on some kind of DB. There are a few points to consider. Can we limit/screen the content users are trying to upload, to avoid malicious actions - consider injections/ infected files, etc. With the new GDPR legislation in place, as a company, we need to be very clear how we take, process and store user input. How do we protect it, is there any personal data involved, can we sanitize it, how long do we store it. If we keep it, can we use it to understand better users’ behaviour? Who in the company has access to it?
+
+We need to come up with a publicly available policy and make that information clear in advance before the demo is launched. 

@@ -1,0 +1,26 @@
+How to make the content searchable?
+
+There are several issues to be considered.
+
+1.Visual organisation 
+
+We want to have the newly added search bar to be visible and easy to use. Ideally, we want to put it near the top of the page. We also want to nudge our visitors to use by inserting an action button such as “Go” or “Find”
+
+The results page should be also easy to understand at a glance: put the keywords in bold at the top of the search results, potentially include related search terms, sort the results either by date or by relevance.
+
+
+2. Balanced content
+
+Website content is searched and indexed by machines but consumed by humans. We want to have a balance between keywords that are picked up by crawlers and human readability. High-quality content shared across various platforms likely will generate more traffic and exposure if it is both informative and useful for users, and also appears on the first pages of search results. 
+
+To achieve that some time might need to be dedicated to select which pages need to be manually selected for indexing (at least the first time), and which can be left as not indexed on purpose. Older articles can potentially be updated and reposted. Longer materials can be summarised in presentations, short videos, or graphics. A suitable database should help keeping all the information accessible and organised.
+
+I will check carefully for links referenced inside posts - links removed pages and expired pages are not helpful.
+
+
+The easiest way to keep the website up to date is to have a dedicated person looking after it. There are webmaster/ analytical tools checking when the content was created. If a post has been online for longer than 6 months/ 1 year, it can be manually reviewed - updated, untouched, archived or deleted.
+
+3. Overall performance
+
+Users are unlikely to spend time on a website that takes a long time to load. Additional steps can be taken to ensure bigger files (i.e. multimedia) are compressed - hence take a shorter time to load and use less bandwidth. Another thing to conder is availability - if the company announces a new contract, or gets extra media attention - it is likely to generate more traffic. A load balancer and extra capacity should be in place so the website can handle or the requests. Last but not least, it is important that the page is accessible and scales according to the device it is used on. 
+
